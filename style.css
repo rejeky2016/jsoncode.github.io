@@ -1,0 +1,61 @@
+body {
+  width: 95%;
+  max-width: 800px;
+  font-family: tahoma, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 0 10px 20px 10px;
+  margin: 0 auto 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.notes {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto 40px auto;
+}
+
+code {
+  background-color: #eee;
+  padding: 0 3px 0 3px;
+}
+
+table {
+  margin: 0 0 30px 0;
+}
+
+label {
+    /* font-weight: bold; */
+    font: normal normal 12px Allerta Stencil;
+}
+
+input {
+  width: 400px;
+    padding: 2px;
+    margin: 2px 10px 0 0;
+    color: #b6c1c1;
+    background: #2e3f56
+}
+
+td:first-child {
+  text-align: right;
+  padding: 0 5px 0 0;
+}
+
+tr.padding td {
+  padding-bottom: 30px;
+}
+
+textarea {
+  display: block;
+  width: 94%;
+  height: 200px;
+  font-family: monospace;
+  white-space: pre;
+  margin: 0 0 10px 0;
+    color: #b6c1c1;
+    background: #2e3f56
+}
